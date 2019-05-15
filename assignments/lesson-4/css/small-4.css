@@ -1,0 +1,47 @@
+body{
+    max-width: 480px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    margin: 10px auto;
+	background-color: #1d2f79;
+	text-align: center;
+  color: #fff;
+}
+header img, .headings {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+.motto{
+    margin:0px;
+    padding:0px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  } 
+  
+  li a {
+    display: block;
+    text-decoration: none;
+    color: #e4efff;
+    background-color: #0e245a;
+    padding:5px;
+    text-align: center;
+    
+  }
+
+  li a.active {
+    background-color: #0e245a;
+    color: #e4efff;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #1d2f79;
+    color: #e4efff;
+  }
