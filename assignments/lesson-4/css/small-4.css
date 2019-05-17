@@ -1,97 +1,112 @@
-body{
-    max-width: 480px;
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
+body {
+  max-width: 480px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
 }
-header{
-    margin: 0px auto;
-	background-color: #1d2f79;
-	text-align: center;
+header {
+  margin: 0px auto;
+  background-color: #1d2f79;
+  text-align: center;
 }
-header img, .headings {
-	display: inline-block;
-	vertical-align: middle;
-
+header img,
+.headings {
+  display: inline-block;
+  vertical-align: middle;
 }
-#logo{
-  width:100px;
+#logo {
+  width: 100px;
 }
-#motto{
+#motto {
   color: #6cbbd7;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-  } 
-  
-  li a {
-    display: block;
-    text-decoration: none;
-    color: #e4efff;
-    background-color: #0e245a;
-    padding:10px;
-    text-align: center;
-    
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  li a.active {
-    background-color: #0e245a;
-    color: #e4efff;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #1d2f79;
-    color: #6cbbd7;
-  }
-
-
-
-  h1 {
-      text-align: center;
-      margin: auto;
+li a {
+  display: block;
+  text-decoration: none;
   color: #e4efff;
-  }
+  background-color: #0e245a;
+  padding: 10px;
+  text-align: center;
+}
 
-  #weathersummary {
-      background-color: lightgray;
-      width: 200px;
-      height: 200px;
-    margin:20px;
-  }
+li a.active {
+  background-color: #0e245a;
+  color: #e4efff;
+}
+
+li a:hover:not(.active) {
+  background-color: #1d2f79;
+  color: #f3cf67;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: auto;
+  color: #e4efff;
+}
+#container {
+  position: relative;
+}
+#weathersummary {
+  color: #e4efff;
+  background: rgba(14, 36, 90, 0.7);
+  width: 200px;
+  height: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
 
 #town {
-    background-color: #1d2f79;
-  padding: 15px
+  background-color: #1d2f79;
+  padding: 15px;
 }
 
 #farm {
-  width:480px;
+  width: 480px;
 }
 
 article {
   background-color: #1d2f79;
   color: #e4efff;
-  padding:20px;
-  margin:0px;
+  padding: 20px;
+  margin: 0px;
 }
-article img{
-  padding:0px;
+article img {
+  padding: 0px;
+}
+
+article h2 {
+  text-align: left;
 }
 #preston {
-  width: 480px;
+  width: 100%;
 }
 
 #contact {
-  background-color: aqua;
-  
+  background-color: #6cbbd7;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #1d2f79;
 }
 #contact p {
-  margin:0px;
+  margin: 0px;
+  text-align: center;
+  padding: 30px;
 }
-footer{
-  background-color: aliceblue;
-  height: 100px;
-  
+footer {
+  background-color: #0e245a;
+  height: 50px;
+  color: lightblue;
+  text-align: center;
+  padding: 20px;
 }
