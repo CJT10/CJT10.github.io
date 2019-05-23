@@ -39,9 +39,9 @@
 main{
     width: 75%;
     max-width: 1000px;
-    
+
     margin: 0 auto;
-    padding 0;
+    padding: 0;
     
 }
 
@@ -53,10 +53,26 @@ h2{
 #farm {
 width:100%;
 }
+
+/* ARTICLE & FISH IMAGE */
 article {
     background-color: #314185;
+    padding:40px;
 }
 
+#townarticle{
+    display:inline-block;
+    width:50%;
+    max-width:425px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+#fish{
+    display: inline-block;
+    width:46%;
+    margin-left: 10px;
+    vertical-align: top;
+}
 /* 5 DAY FORECAST */
 
 .fiveday h3{
@@ -85,3 +101,5 @@ table, th, td {
   .fiveday td{
       background-color: #ffffff;
   }
+
+  
