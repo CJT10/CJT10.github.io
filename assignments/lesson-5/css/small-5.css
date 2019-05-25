@@ -1,11 +1,18 @@
-/** {
+ /* * {
     border: 1px solid red !important;
- }*/
+} */
+* {
+    box-sizing: border-box;
+  
+  }
 
 body {
-  max-width: 480px;
+ 
+  width:100%;
   margin: auto;
   font-family: "Roboto", sans-serif;
+  background-color: #e4efff;
+  box-sizing: 
 }
 header {
   margin: 0px auto;
@@ -25,6 +32,10 @@ header img,
 }
 
 /* NAVIGATION */
+nav {
+    background-color: #0e245a;
+  }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -78,6 +89,8 @@ h2 {
 #weathersummary h3 {
   text-decoration: underline;
   text-align: center;
+  padding:10px;
+  margin: 0px;
 }
 #weathsummleft {
   text-align: right;
@@ -95,8 +108,10 @@ h2 {
 }
 
 #farm {
-  width: 480px;
+  margin-bottom:20px;
 }
+
+
 
 /* ARTICLE */
 article {
@@ -142,23 +157,34 @@ p a:active{
     color: #f3cf67;
 }
 /* CONTACT */
-#contact {
-  background-color: #6cbbd7;
+#contactsection{
+    width:100%;
+    background-color: #bdc3d2;
+    margin:0 auto;
+}
+#address {
+ 
   padding-top: 30px;
   padding-bottom: 30px;
   color: #1d2f79;
-}
-#contact p {
+font-weight:bold;
   margin: 0px;
   text-align: center;
-  padding: 30px;
+
 }
+
+
 
 /*FOOTER*/
 footer {
   background-color: #0e245a;
-  height: 50px;
+  height: 20%;
   color: lightblue;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
 }
+
+
+.fiveday {
+        display:none;
+    }

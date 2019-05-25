@@ -2,15 +2,13 @@
   body {
    
     max-width: 100%;
-    background-color: #e4efff;
+    
   }
   .headings {
     margin-top: 80px;
     margin-bottom: 50px;
   }
-  nav {
-    background-color: #0e245a;
-  }
+
   ul {
     list-style-type: none;
     text-align: center;
@@ -33,13 +31,12 @@
   li a:hover {
     /*background-color: #111;*/
   }
-}
+
 
 
 main{
-    width: 75%;
+    width: 80%;
     max-width: 1000px;
-
     margin: 0 auto;
     padding: 0;
     
@@ -50,6 +47,7 @@ h2{
     margin-bottom: 25px;
     font-size: 2.5em;
 }
+
 #farm {
 width:100%;
 }
@@ -73,19 +71,27 @@ article {
     margin-left: 10px;
     vertical-align: top;
 }
+
 /* 5 DAY FORECAST */
 
+.fiveday {
+    display:block;
+
+}
+
 .fiveday h3{
+
     text-align: center;
     color: #314185;
     font-size: 2em;
 
 }
 
-table, th, td {
+table, th /* td*/ {
     border: 1px solid lightgray;
     border-collapse: collapse;
     box-shadow: 5px 5px 4px #777777;
+   
   }
 
   table{
@@ -96,10 +102,52 @@ table, th, td {
       background-color: #0e245a;
       color: #e4efff;
       padding: 10px;
+      
   }
 
   .fiveday td{
       background-color: #ffffff;
+      text-align:center;
+      color: #0e245a;
+      font-size: 1.3em;
+      border-right: 1px solid lightgray;
+     
   }
 
+
+  #contactsection{
   
+      margin-top: 30px ;
+    padding:0px 0px 50px 20px;
+    
+
+  }
+  /* CONTACT */
+
+
+  #address {
+    display:inline-block;
+     
+      text-align:left;
+      padding:0px;
+      vertical-align: top;
+      margin-top:80px;
+      padding-left:20px;
+      padding-right: 20px;
+      font-size: 1.5em;
+      line-height: 1.4em;
+      background-color: #e4efff;
+      border: 1px outset #bbc4d1;
+      border-radius: .5em .5em .5em .5em;
+  }
+
+
+
+  /*  MAP  */
+#map{
+    display:inline-block;
+    padding: 0px;
+    margin:30px;
+    width: 40%;
+}
+}
