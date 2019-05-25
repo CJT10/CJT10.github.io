@@ -118,7 +118,8 @@ table, th /* td*/ {
   #contactsection{
   
       margin-top: 30px ;
-    padding:0px 0px 50px 20px;
+      margin-bottom: 30px;
+    padding:0px ;
     
 
   }
@@ -132,13 +133,13 @@ table, th /* td*/ {
       padding:0px;
       vertical-align: top;
       margin-top:80px;
+      margin-left:2rem;
       padding-left:20px;
       padding-right: 20px;
-      font-size: 1.5em;
+      font-size: 1.3em;
       line-height: 1.4em;
       background-color: #e4efff;
-      border: 1px outset #bbc4d1;
-      border-radius: .5em .5em .5em .5em;
+     
   }
 
 

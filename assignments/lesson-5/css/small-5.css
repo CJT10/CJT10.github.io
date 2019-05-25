@@ -12,7 +12,7 @@ body {
   margin: auto;
   font-family: "Roboto", sans-serif;
   background-color: #e4efff;
-  box-sizing: 
+
 }
 header {
   margin: 0px auto;
@@ -61,6 +61,11 @@ li a:hover:not(.active) {
   color: #6cbbd7;
 }
 
+nav .current{
+    background-color:#1d2f79;
+    color: #e4efff;
+    font-weight: bold;
+}
 h1,
 h2 {
   text-align: center;
@@ -172,7 +177,9 @@ font-weight:bold;
   text-align: center;
 
 }
-
+#map{
+    text-align: center;
+}
 
 
 /*FOOTER*/
