@@ -1,0 +1,220 @@
+ /* * {
+    border: 1px solid red !important;
+} */
+* {
+    box-sizing: border-box;
+  
+  }
+
+body {
+ 
+  width:100%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  background-color: #e4efff;
+
+}
+header {
+  margin: 0px auto;
+  background-color: #1d2f79;
+  text-align: center;
+}
+header img,
+.headings {
+  display: inline-block;
+  vertical-align: middle;
+}
+#logo {
+  width: 100px;
+}
+#motto {
+  color: #6cbbd7;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #0e245a;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+.navigation li{
+  display:none;
+}
+.responsive li{
+  display:block;
+}
+li  a{
+  display: block;
+  text-decoration: none;
+  color: #e4efff;
+  background-color: #0e245a;
+  padding: 10px;
+  text-align: center;
+}
+
+li a.active {
+  background-color: #0e245a;
+  color: #e4efff;
+}
+
+li a:hover:not(.active) {
+  background-color: #1d2f79;
+  color: #e4efff;
+}
+
+nav .current{
+    background-color:#1d2f79;
+    color: #e4efff;
+    font-weight: bold;
+}
+h1,
+h2 {
+  text-align: center;
+  margin: auto;
+  color: #e4efff;
+}
+#container {
+  position: relative;
+  
+
+}
+
+/* HERO IMAGE */
+
+main img{
+  margin:0;
+  max-width: 1000px;
+  height:auto;
+}
+
+.mainimage {
+  margin:auto;
+  width:100%;
+  max-width:1000px;
+  height:auto;
+}
+
+/* WEATHER SUMMARY */
+
+#weathersummary {
+  color: #e4efff;
+  background: rgba(14, 36, 90, 0.9);
+  width: 250px;
+  height: 280px;
+  padding: 20px;
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#weathersummary h3 {
+  text-decoration: underline;
+  text-align: center;
+  padding:10px;
+  margin: 0px;
+}
+#weathsummleft {
+  text-align: right;
+  width: 100px;
+  display: inline-block;
+}
+#weathsummright {
+  color: #f3cf67;
+  width: 100px;
+  display: inline-block;
+}
+#town {
+  color: #1d2f79;
+  padding: 15px;
+}
+
+
+
+
+/* ARTICLE */
+article {
+  background-color: #1d2f79;
+  color: #e4efff;
+  padding: 20px;
+  margin: 0px;
+  
+}
+
+#byline {
+  margin: 0px;
+  padding: 0px;
+  color: lightgray;
+}
+article img {
+  padding: 0px;
+}
+
+article p{
+    line-height: 1.4em;
+    vertical-align: top;
+    margin:0px;
+}
+article h2 {
+  text-align: left;
+  margin: 0px;
+}
+#fish {
+  width: 100%;
+}
+
+p a:link{
+    color:lightgray;
+}
+p a:visited{
+    color:gray;
+}
+p a:hover{
+    color:#6cbbd7;
+}
+p a:active{
+    color: #f3cf67;
+}
+/* CONTACT */
+#contactsection{
+    width:100%;
+    background-color: #bdc3d2;
+    margin:0 auto;
+}
+#address {
+ 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #1d2f79;
+font-weight:bold;
+  margin: 0px;
+  text-align: center;
+
+}
+#map{
+    text-align: center;
+}
+
+
+/*FOOTER*/
+footer {
+  background-color: #0e245a;
+  height: 20%;
+  color: lightblue;
+  text-align: center;
+  padding: 5px;
+}
+
+
+.fiveday {
+        display:none;
+    }
