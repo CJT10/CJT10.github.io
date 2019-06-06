@@ -3,8 +3,6 @@
     max-width: 100%;
   }
 
-  
-
   main {
     width: 80%;
     max-width: 1000px;
@@ -18,28 +16,20 @@
     font-size: 2.5em;
   }
 
-
-
-
-
   /* ARTICLE & FISH IMAGE */
   article {
     background-color: #314185;
     padding: 40px;
   }
 
-  #townarticle {
-    display: inline-block;
-    width: 50%;
-    max-width: 425px;
-    padding-top: 20px;
-    padding-right: 10px;
-  }
   #fish {
-    display: inline-block;
-    width: 46%;
-    margin-left: 10px;
-    vertical-align: top;
+    float: right;
+    width: 50%;
+    margin-left: 1em;
+  }
+  #townarticle {
+    overflow: auto;
+    margin-top: 2em;
   }
 
   /* 5 DAY FORECAST */
