@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Preston, Idaho Weather</title>
+    <meta name="description" content="Idaho weather information and more" />
+ 
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small-7.css"/>
+    <link rel="stylesheet" href="css/medium-7.css">
+    <link rel="stylesheet" href="css/large-7.css">
+  </head>
+
+  <body>
+    <header>
+      <img id="logo" src="images/weatherspotlogo.png" alt="weather spot logo" />
+      <section class="headings">
+        <h1>Idaho Weather Spot</h1>
+        <div id="motto">Your spot for local weather and more</div>
+      </section>
+      <nav>
+    
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="">Home</a></li>
+          <li><a  href="preston-7.html">Preston</a></li>
+          <li><a href="">Soda Springs</a></li>
+          <li><a href="">Fish Haven</a></li>
+          <li><a href="">Storm Center</a></li>
+          <li><a class="current" href="">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main id="maingallery">
+        
+            <h2>Weather Gallery</h2>
+            <div id="gallery">
+        
+     <figure><img src="images/alin-rusu-1259933-unsplash400.jpg"/>
+    <figcaption>Unique cloud structure over fields</figcaption></figure>
+     <figure><img src="images/colby-thomas-64162-unsplash400.jpg"/>
+    <figcaption>Snowy mountain during the winter</figcaption></figure>
+     <figure><img src="images/josep-castells-523198-unsplash400.jpg"/>
+    <figcaption>Lightning storm</figcaption></figure>
+     <figure><img src="images/randy-milanovic-1595756-unsplash400.jpg"/>
+    <figcaption>Large shelf cloud over the city</figcaption></figure>
+     <figure><img src="images/robert-hoffmann-1223793-unsplash400.jpg"/>
+    <figcaption>Rare double rainbow seen over a farmhouse</figcaption></figure>
+     <figure><img src="images/stijn-te-strake-319805-unsplash400.jpg"/>
+    <figcaption>Powerful Spring time rain storm</figcaption></figure>
+</div>
+  
+    </main>
+    <footer>
+      <p>&COPY;Idaho Weather Spot  |  CIT 230 BYUI  |  Cassidy Terry  |  <span id="currentdate"></span></p>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+  </body>
+</html>

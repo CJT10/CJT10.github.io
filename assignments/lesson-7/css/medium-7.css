@@ -1,0 +1,42 @@
+@media only screen and (min-width: 600px) {
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+
+  body {
+    width: 100%;
+  }
+/* HEADER AND LOGO */
+.headings {
+    display: flex;
+    flex-flow: row wrap;
+    
+    margin: 0 auto;
+  }
+
+  #logo{
+      display:flex;
+      flex-direction: row;
+  }
+
+  /* NAVIGATION */
+  .navigation{
+    flex-direction: row;
+    width:100%;
+    max-width: 800px;
+    width: 100%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+  .navigation li:first-child {
+    display: none;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+   
+  }
+  
+}

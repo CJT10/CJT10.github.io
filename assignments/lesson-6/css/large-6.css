@@ -32,7 +32,7 @@
   .navigation li:first-child {
     display: none;
   }
-  
+
   .navigation li {
     display: inline-block;
   }
@@ -50,8 +50,6 @@
     font-size: 2.5em;
   }
 
-  figure .mainimage {
-  }
 
   /* ARTICLE & FISH IMAGE */
   article {
