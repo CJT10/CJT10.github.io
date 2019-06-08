@@ -57,7 +57,7 @@
     font-size: 2em;
   }
 
-  table, th /* td*/ {
+  table, th {
     border: 1px solid lightgray;
     border-collapse: collapse;
     box-shadow: 5px 5px 4px #777777;
