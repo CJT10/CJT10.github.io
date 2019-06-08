@@ -24,13 +24,26 @@
 
   #fish {
     float: right;
-    width: 50%;
-    margin-left: 1em;
+    width: 55%;
+    margin-left: 2em;
   }
   #townarticle {
     overflow: auto;
-    margin-top: 2em;
+    margin-top: 3em;
+    max-width:
   }
+
+  #townarticle, .articleheadline{
+    max-width: 50em;
+    margin: 0 auto;
+    
+    }
+
+    article p{
+        margin-top:1em;
+    }
+
+  
 
   /* 5 DAY FORECAST */
 
