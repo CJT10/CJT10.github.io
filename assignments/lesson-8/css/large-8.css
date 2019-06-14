@@ -1,0 +1,122 @@
+@media only screen and (min-width: 900px) {
+  body {
+    max-width: 100%;
+  }
+
+  main {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2.5em;
+  }
+
+  /* ARTICLE & FISH IMAGE */
+  article {
+    background-color: #314185;
+    padding: 40px;
+  }
+
+  #fish {
+    float: right;
+    width: 55%;
+    margin-left: 2em;
+  }
+  #townarticle {
+    overflow: auto;
+    margin-top: 3em;
+    max-width:
+  }
+
+  #townarticle, .articleheadline{
+    max-width: 50em;
+    margin: 0 auto;
+    
+    }
+
+    article p{
+        margin-top:1em;
+    }
+
+  
+
+  /* 5 DAY FORECAST */
+
+  .fiveday {
+    display: block;
+  }
+
+  .fiveday h3 {
+    text-align: center;
+    color: #314185;
+    font-size: 2em;
+  }
+
+  table, th {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 4px #777777;
+  }
+
+  table {
+    margin: 30px auto 30px auto;
+  }
+
+  .fiveday th {
+    background-color: #0e245a;
+    color: #e4efff;
+    padding: 10px;
+  }
+
+  .fiveday td {
+    background-color: #ffffff;
+    text-align: center;
+    color: #0e245a;
+    font-size: 1.3em;
+    border-right: 1px solid lightgray;
+  }
+
+  /* CONTACT */
+
+  #contactsection {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0px;
+  }
+
+  #address {
+    display: inline-block;
+
+    text-align: left;
+    padding: 0px;
+    vertical-align: top;
+    margin-top: 80px;
+    margin-left: 2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    background-color: #e4efff;
+  }
+
+  /*  MAP  */
+  #map {
+    display: inline-block;
+    padding: 0px;
+    margin: 30px;
+    width: 40%;
+  }
+
+  #gallery {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+  }
+  #gallery figure:hover {
+    box-shadow: 10px 10px 20px gray;
+  }
+}
