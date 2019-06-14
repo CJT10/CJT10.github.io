@@ -82,15 +82,13 @@ nav .current {
   color: #e4efff;
   font-weight: bold;
 }
-h1
- {
+h1 {
   text-align: center;
   margin: auto;
   color: #e4efff;
 }
 
-h2
- {
+h2 {
   text-align: center;
   margin: auto;
   color: #1d2f79;
@@ -110,7 +108,7 @@ main img {
 .mainimage {
   margin: auto;
   width: 100%;
-height:auto;
+  height: auto;
 }
 
 /* WEATHER SUMMARY */
@@ -173,7 +171,7 @@ article p {
 article h2 {
   text-align: left;
   margin: 0px;
-  font-size:2em;
+  font-size: 2em;
 }
 #fish {
   width: 100%;
@@ -257,57 +255,49 @@ footer {
 
 /*   FORM    */
 
-form{
+form {
   background-color: #0e245a;
   border-radius: 5px;
-
 }
-form h3{
-
+form h3 {
   padding: 2em 2em 0;
   color: #e4efff;
-  font-size:1.65rem;
-  
+  font-size: 1.65rem;
 }
-form fieldset{
- background-color: #1d2f79;
+form fieldset {
+  background-color: #1d2f79;
   margin: 2rem;
   border: 1px solid #a7d8ff;
   border-radius: 5px;
   padding: 1rem 2%;
-  
 }
-fieldset legend{
-  color:#e4efff;
+fieldset legend {
+  color: #e4efff;
   text-transform: uppercase;
-  f
-  letter-spacing: .045em;
-  
+  letter-spacing: 0.045em;
 }
-form label.top input, form label.top select{
-    display:block;
-    font-size: 1rem;
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
   border-radius: 5px;
-   
-    
-    padding: .75rem;
+  padding: 0.75rem;
   background-color: #d0dae8;
 }
-form label.top{
-    display:block;
-    padding-top: 1rem;
-    color:  #fff;
-    font-size: .9rem;
-} 
-#ratingvalue{
-  font-size:x-large;
-  color:#a7d8ff;
-  
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+#ratingvalue {
+  font-size: x-large;
+  color: #a7d8ff;
 }
 .slider {
-   -webkit-appearance: none;
-  background: #d0dae8 ;
-  height:1rem;
+  -webkit-appearance: none;
+  background: #d0dae8;
+  height: 1rem;
 }
 .slider:hover {
   opacity: 1;
@@ -319,51 +309,49 @@ form label.top{
   width: 15px;
   height: 20px;
   background: #a7d8ff;
-  border-radius:5px;
+  border-radius: 5px;
   cursor: pointer;
 }
 .slider::-moz-range-thumb {
   width: 15px;
   height: 20px;
   background: #a7d8ff;
-  border-radius:5px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
-.danger{
-  display:block;
-  padding: .5rem 0;
+.danger {
+  display: block;
+  padding: 0.5rem 0;
   color: #e4efff;
 }
-  
-form input.submitBtn{
-  border:none;
+
+form input.submitBtn {
+  border: none;
   background-color: #1d2f79;
   color: white;
   border: 1px solid white;
   border-radius: 1rem;
   padding: 1rem 1.5rem;
   margin: 0 0 2rem 2%;
-  width:93%;
+  width: 93%;
   max-width: 20rem;
   text-transform: uppercase;
 }
-form input.submitBtn:hover{
+form input.submitBtn:hover {
   background-color: #a7d8ff;
   color: #0e245a;
   border: 1px solid #0e245a;
 }
 
-.comments{
-  width:40%;
-  height:200px;
+.comments {
+  width: 40%;
+  height: 200px;
 }
 
-.thanks{
+.thanks {
   color: #1d2f79;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 5em;
-  
 }
- 
