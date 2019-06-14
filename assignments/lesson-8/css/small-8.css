@@ -243,6 +243,7 @@ footer {
   margin: 0;
   background-color: #fff;
   padding: 1em;
+  border-radius:5px;
 }
 #gallery figure:hover {
   box-shadow: none;
@@ -252,7 +253,9 @@ footer {
   text-align: center;
   padding: 4px;
 }
-
+#gallery img{
+  width:100%;
+}
 /*   FORM    */
 
 form {
@@ -346,6 +349,7 @@ form input.submitBtn:hover {
 
 .comments {
   width: 40%;
+  min-width: 250px;
   height: 200px;
 }
 
