@@ -13,7 +13,7 @@ html {
   
   h1, h2 {
     font-family: 'Faster One', cursive;
-    text-shadow: 3px 3px 3px #a0a0a0;
+    text-shadow: 3px 3px 3px lightgray;
   }
   
   /* header styles */
