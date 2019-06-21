@@ -51,14 +51,10 @@ article{
     margin: 1em 0 0 0;
 }
 /* HOME PAGE JSON */
-  .townsection{
+.townsection{
   display:flex;
   flex-flow: row wrap;
-  justify-content: left;
-  margin:0 auto;
-  width:100%;
-    
- 
+
+  }
+
 }
-
-

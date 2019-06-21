@@ -387,12 +387,10 @@ border-radius: 5px;
 }
 
 .townsection p {
-  margin: .5em 2em;
+  margin: .5em 2.5em;
   text-align:left;
   
-  
-  
-}
+  }
 
 .townsection ul {
   margin-top: 0;
@@ -413,6 +411,6 @@ text-align:center;
   margin-top:0;
 }
 .townsection img{
-  margin:1em auto 0 auto;
+  margin:1.5em auto 0 auto;
   
 }

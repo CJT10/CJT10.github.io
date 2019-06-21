@@ -43,7 +43,7 @@ function populateTownInfo(jsonObj){
     var myPara2 = document.createElement("p");
     var myPara3 = document.createElement("p");
     var myPara4 = document.createElement("p");
-    var myList = document.createElement("ul");
+    
     var myImage = document.createElement("img");
 
     myH2.textContent = town.name;
@@ -71,7 +71,7 @@ function populateTownInfo(jsonObj){
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
-    myArticle.appendChild(myList);
+    
     myArticle.appendChild(myImage);
     myArticle.className = "townsection";
 
