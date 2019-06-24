@@ -56,10 +56,11 @@ article{
   flex-flow: row wrap;
 
   }
-  .homeimage{
-    width:100%;
-    text-align:center;
-    margin:2em auto;
-    display:flex;
-  }
+
+    .homeimage{
+      width:100%;
+      text-align:center;
+      margin:2em auto;
+      display:flex;
+}
 }
