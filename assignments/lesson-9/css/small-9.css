@@ -93,8 +93,10 @@ h2 {
   margin: auto;
   color: #1d2f79;
   margin-bottom:1em;
+  margin-top: 1em;
+  font-size:2em;
 }
-#container {
+.container {
   position: relative;
 }
 
@@ -382,7 +384,7 @@ border-radius: 5px;
  max-width: 18.75em;
   margin-bottom: 3em;
   box-shadow: 5px 5px 10px gray;
-  background-color: #1d2f79
+  background-color: #1d2f79;
 
 
 }
@@ -413,5 +415,14 @@ text-align:center;
 }
 .townsection img{
   margin:1.5em auto 0 auto;
+  
+}
+
+
+.homeimage {
+margin: 2em auto;
+  display:flex;
+  width:100%;
+
   
 }
