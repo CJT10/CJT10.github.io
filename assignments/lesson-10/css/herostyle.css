@@ -1,0 +1,59 @@
+/* || general styles */
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  
+  }
+  
+  body {
+    width: 800px;
+    margin: 0 auto;
+ 
+  }
+  
+  h1, h2 {
+    font-family: 'Faster One', cursive;
+    text-shadow: 3px 3px 3px lightgray;
+  }
+  
+  /* header styles */
+  
+  h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #0060AA;
+    border: 2px solid #0060AA;
+    border-radius: 5px;
+    padding-bottom:10px;
+  }
+  
+  header p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #efc023;
+  }
+  
+  /* section styles */
+  
+  section article {
+    width: 33%;
+    float: left;
+  
+  }
+  
+  section p {
+    margin: 5px 0;
+    
+  }
+  
+  section ul {
+    margin-top: 0;
+  }
+  
+  h2 {
+    font-size: 2.75rem;
+    letter-spacing: -5px;
+    margin-bottom: 10px;
+    color:#c60000;
+  }

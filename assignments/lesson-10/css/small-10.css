@@ -1,0 +1,428 @@
+/* * {
+    border: 1px solid red !important;
+ } */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  background-color: #e4efff;
+}
+header {
+  margin: 0 auto;
+  background-color: #1d2f79;
+  text-align: center;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+}
+
+#logo {
+  width: 100px;
+}
+#motto {
+  color: #a7d8ff;
+}
+
+/* NEW FLEX NAVIGATION */
+
+nav {
+  margin: 1rem auto;
+  background-color: #0e245a;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation li:first-child {
+  display: block;
+}
+.navigation li a {
+  display: block;
+  color: #e4efff;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.responsive li {
+  display: block;
+}
+
+li a.active {
+  background-color: #0e245a;
+  color: #6cbbd7;
+}
+
+li a:hover:not(.active) {
+  background-color: #1d2f79;
+  color: #e4efff;
+}
+
+nav .current {
+  background-color: #1d2f79;
+  color: #e4efff;
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  margin: auto;
+  color: #e4efff;
+}
+
+h2 {
+  text-align: center;
+  margin: auto;
+  color: #1d2f79;
+  margin-bottom:1em;
+  margin-top: 1em;
+  font-size:2em;
+}
+.container {
+  position: relative;
+}
+
+/* HERO IMAGE */
+
+main img {
+  margin: 0;
+  max-width: 1000px;
+  height: auto;
+}
+
+.mainimage {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+/* WEATHER SUMMARY */
+
+#weathersummary {
+  color: #e4efff;
+  background: rgba(14, 36, 90, 0.9);
+  width: 240px;
+  height: 15em;
+  padding: 15px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#weathersummary h3 {
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+}
+#weathsummleft {
+  text-align: right;
+  width: 100px;
+  display: inline-block;
+}
+#weathsummright {
+  color: #f3cf67;
+  width: 100px;
+  display: inline-block;
+}
+#town {
+  color: #1d2f79;
+  padding: 15px;
+}
+
+/* ARTICLE */
+article {
+  background-color: #1d2f79;
+  color: #e4efff;
+  padding: 20px;
+  margin: 4em 0 0 0;
+}
+
+#byline {
+  margin: 0px;
+  padding: 0px;
+  color: lightgray;
+}
+article img {
+  padding: 0px;
+  margin: 1em 0 1em 0;
+}
+
+article p {
+  line-height: 1.4em;
+  vertical-align: top;
+  margin: 0px;
+}
+article h2 {
+  text-align: left;
+  margin: 0px;
+  font-size: 2em;
+  color:#e4efff;
+}
+#fish {
+  width: 100%;
+}
+
+p a:link {
+  color: lightgray;
+}
+p a:visited {
+  color: gray;
+}
+p a:hover {
+  color: #6cbbd7;
+}
+p a:active {
+  color: #f3cf67;
+}
+/* CONTACT */
+#contactsection {
+  width: 100%;
+  background-color: #bdc3d2;
+  margin: 0 auto;
+}
+#address {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #1d2f79;
+  font-weight: bold;
+  margin: 0px;
+  text-align: center;
+}
+#map {
+  text-align: center;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #0e245a;
+  height: 20%;
+  color: #a7d8ff;
+  text-align: center;
+  padding: 5px;
+}
+
+.fiveday {
+  display: none;
+}
+
+/* GALLERY */
+#maingallery h2 {
+  color: #1d2f79;
+  margin: 1.5em;
+  text-shadow: 2px 2px 3px lightgray;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 3em;
+  margin-bottom: 3em;
+  justify-content: center;
+}
+#maingallery {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#gallery figure {
+  margin: 0;
+  background-color: #fff;
+  padding: 1em;
+  border-radius:5px;
+}
+#gallery figure:hover {
+  box-shadow: none;
+}
+#gallery figcaption {
+  color: #1d2f79;
+  text-align: center;
+  padding: 4px;
+}
+#gallery img{
+  width:100%;
+}
+/*   FORM    */
+
+form {
+  background-color: #0e245a;
+  border-radius: 5px;
+}
+form h3 {
+  padding: 2em 2em 0;
+  color: #e4efff;
+  font-size: 1.65rem;
+}
+form fieldset {
+  background-color: #1d2f79;
+  margin: 2rem;
+  border: 1px solid #a7d8ff;
+  border-radius: 5px;
+  padding: 1rem 2%;
+}
+fieldset legend {
+  color: #e4efff;
+  text-transform: uppercase;
+  letter-spacing: 0.045em;
+}
+form label.top input,
+form label.top select {
+  display: block;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.75rem;
+  background-color: #d0dae8;
+}
+form label.top {
+  display: block;
+  padding-top: 1rem;
+  color: #fff;
+  font-size: 0.9rem;
+}
+#ratingvalue {
+  font-size: x-large;
+  color: #a7d8ff;
+}
+.slider {
+  -webkit-appearance: none;
+  background: #d0dae8;
+  height: 1rem;
+}
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 20px;
+  background: #a7d8ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 15px;
+  height: 20px;
+  background: #a7d8ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.danger {
+  display: block;
+  padding: 0.5rem 0;
+  color: #e4efff;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #1d2f79;
+  color: white;
+  border: 1px solid white;
+  border-radius: 1rem;
+  padding: 1rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 93%;
+  max-width: 20rem;
+  text-transform: uppercase;
+}
+form input.submitBtn:hover {
+  background-color: #a7d8ff;
+  color: #0e245a;
+  border: 1px solid #0e245a;
+}
+
+.comments {
+  width: 40%;
+  min-width: 250px;
+  height: 200px;
+}
+
+.thanks {
+  color: #1d2f79;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 5em;
+}
+
+
+/* Home Page JSON town data */
+
+.townsection{
+  display:flex;
+  flex-flow: column;
+  justify-content: center;
+  margin:0 auto;
+  width:100%;
+  
+
+ 
+}
+.townsection article {
+
+border-radius: 5px;
+  padding:0px;
+ max-width: 18.75em;
+  margin-bottom: 3em;
+  box-shadow: 5px 5px 10px gray;
+  background-color: #1d2f79;
+
+
+}
+
+.townsection p {
+  margin: .5em 2.5em;
+  text-align:left;
+  
+  }
+
+.townsection ul {
+  margin-top: 0;
+}
+
+.townsection h2 {
+text-align:center;
+  margin-top: 1em;
+  color:#e4efff;
+}
+.townsection p:first-of-type{
+  text-align:center;
+  margin-bottom:2rem;
+  font-size: .9rem;
+  color: #a7d8ff;
+  font-style: italic;
+  text-transform: none;
+  margin-top:0;
+}
+.townsection img{
+  margin:1.5em auto 0 auto;
+  
+}
+
+
+.homeimage {
+margin: 2em auto;
+  display:flex;
+  width:100%;
+
+  
+}

@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Idaho Weather Spot Home</title>
+    <title>Thanks</title>
     <meta name="description" content="Idaho weather information and more" />
  
     <link
@@ -31,57 +31,47 @@
     
         <ul class="navigation">
             <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
-          <li><a class="current" href="index.html">Home</a></li>
-          <li><a href="preston-10.html">Preston</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a  href="preston-10.html">Preston</a></li>
           <li><a href="">Soda Springs</a></li>
           <li><a href="">Fish Haven</a></li>
-          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a class="current" href="">Storm Center</a></li>
           <li><a href="gallery-10.html">Gallery</a></li>
         </ul>
       </nav>
     </header>
-    
-    <main>
-
-        <h2>Welcome!</h2>
+<main>
+    <h2>Storm Center</h2>
+    <div class="thanks">
+    <p>Thanks for submitting your storm report!</p>
+    <p><a href="index.html">Return Home</a></p>
+  </div>
+</article>
       
-      <figure class="homeimage"><img src="images/idaho-landscape1000.jpg" alt="Idaho Mountains">
-       
-        </figure>
+<div id="contactsection">
+  
+    <div id="address">
+          
+      <p>Idaho Weather Spot <br>
+      300 N 1st E <br>
+      Preston, ID 83263</p>
+      <p>idahoweatherspot@myemail.com<br>
+      1-866-555-2965</p>
       
-
-    
-   
-     <section class="townsection">
-
-
-     </section>
-     <div id="contactsection">
-        
-      <div id="address">
-            
-        <p>Idaho Weather Spot <br>
-        300 N 1st E <br>
-        Preston, ID 83263</p>
-        <p>idahoweatherspot@myemail.com<br>
-        1-866-555-2965</p>
-        
 </div>
 <div id="map">
-        <iframe width="400" height="300" src="https://www.bing.com/maps/embed?h=400&w=500&cp=42.09019542222846~-111.89453998161764&lvl=13&typ=d&sty=r&src=SHELL&FORM=MBEDV8" >
-        </iframe>
-        
- </div>
-</div>
+      <iframe width="400" height="300" src="https://www.bing.com/maps/embed?h=400&w=500&cp=42.09019542222846~-111.89453998161764&lvl=13&typ=d&sty=r&src=SHELL&FORM=MBEDV8" >
+      </iframe>
       
-  
-    </main>
-    <footer>
-            <p>&COPY;Idaho Weather Spot  |  CIT 230 BYUI  |  Cassidy Terry  |  <span id="currentdate"></span></p>
-          </footer>
- 
-    <script src="js/currentdate.js"></script>
-    <script src="js/hamburger.js"></script>
-    <script src="js/townjson.js"></script>
-  </body>
+</div>
+</div>
+</main>
+<footer>
+<p>&COPY;Idaho Weather Spot  |  CIT 230 BYUI  |  Cassidy Terry  |  <span id="currentdate"></span></p>
+</footer>
+<script src="js/currentdate.js"></script>
+<script src="js/hamburger.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/ratingslider.js"></script>
+</body>
 </html>
