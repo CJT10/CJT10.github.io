@@ -10,4 +10,5 @@ weatherRequest.onload =  function () {
     document.getElementById('description').innerHTML = weatherData.weather.description;
     document.getElementById('high').innerHTML = weatherData.main.temp;
     document.getElementById('humidity').innerHTML = weatherData.main.temp_max;
+    document.getElementById('windspeed').innerHTML = weatherData.wind.speed;
 }
