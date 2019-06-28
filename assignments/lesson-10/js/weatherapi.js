@@ -19,4 +19,12 @@ weatherRequest.onload =  function() {
     document.getElementById('cc-img').setAttribute('src', icon);
     document.getElementById('cc-img').setAttribute('alt', desc);
 
+
+var cur_temp = weatherData.main.temp;
+var wspeed = weatherData.wind.speed;
+var chill = (35.74 + (0.6215*cur_temp) - 35.75* Math.pow(wspeed, 0.16) + 0.4275 * cur_temp * Math.pow(wspeed, 0.16));
+var c = chill.toFixed(1);
+
+document.getElementById("windchill").innerHTML = c;
+
 }
