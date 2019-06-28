@@ -10,7 +10,7 @@ weatherRequest.onload = function() {
   console.log(weatherData);
 
   document.getElementById('description').innerHTML = weatherData.weather[0].description;
-  document.getElementById("cc-temp").innerHTML = weatherData.main.temp;
+  document.getElementById("cc-temp").innerHTML = Math.round(weatherData.main.temp);
   document.getElementById("humidity").innerHTML = weatherData.main.temp_max;
   document.getElementById("windspeed").innerHTML = weatherData.wind.speed;
 
@@ -30,7 +30,24 @@ weatherRequest.onload = function() {
     0.6215 * cur_temp -
     35.75 * Math.pow(wspeed, 0.16) +
     0.4275 * cur_temp * Math.pow(wspeed, 0.16);
-  var c = chill.toFixed(1);
+  var c = Math.round(chill);
 
   document.getElementById("windchill").innerHTML = c;
-};
+}
+  // FORECAST //
+  let forecastRequest = new XMLHttpRequest();
+
+  forecastRequest.open('Get', 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=c56d49a01e77b339a90a3bf2c7dcf667', true);
+  forecastRequest.send();
+  
+ forecastRequest.onload = function() {
+    let forecastData = JSON.parse(forecastRequest.responseText);
+    console.log(forecastData);
+
+
+
+    document.getElementById("forecasttemp").innerHTML = forecastData.list[0].main.temp;
+
+
+
+  }
