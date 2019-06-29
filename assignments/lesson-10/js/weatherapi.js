@@ -49,7 +49,7 @@ weatherRequest.onload = function() {
     if (forecastData.list[i].dt_txt.includes('18:00:00')) {
         var maintemp = forecastData.list[i].main.temp;
     var temp = "temp" + dayofweek;
-    document.getElementById(temp).innerHTML = maintemp;
+    document.getElementById(temp).innerHTML = Math.round(maintemp);
      
     var icon =
     "http://openweathermap.org/img/wn/" + forecastData.list[i].weather[0].icon + ".png";
