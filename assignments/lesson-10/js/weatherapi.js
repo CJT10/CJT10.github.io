@@ -14,9 +14,7 @@ weatherRequest.onload = function() {
   document.getElementById("humidity").innerHTML = weatherData.main.temp_max;
   document.getElementById("windspeed").innerHTML = weatherData.wind.speed;
 
-
-
-  //CALCULATE WIND CHILL//
+//CALCULATE WIND CHILL//
   var cur_temp = weatherData.main.temp;
   var wspeed = weatherData.wind.speed;
   var chill =
@@ -28,6 +26,8 @@ weatherRequest.onload = function() {
 
   document.getElementById("windchill").innerHTML = c;
 }
+
+
   // FORECAST //
   let forecastRequest = new XMLHttpRequest();
 
