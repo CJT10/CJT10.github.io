@@ -14,13 +14,7 @@ weatherRequest.onload = function() {
   document.getElementById("humidity").innerHTML = weatherData.main.temp_max;
   document.getElementById("windspeed").innerHTML = weatherData.wind.speed;
 
-  //  ICON PICTURE //
-  let icon =
-    "http://openweathermap.org/img/wn/" + weatherData.weather[0].icon + ".png";
-  let desc = weatherData.weather[0].description;
 
-  document.getElementById("cc-img").setAttribute("src", icon);
-  document.getElementById("cc-img").setAttribute("alt", desc);
 
   //CALCULATE WIND CHILL//
   var cur_temp = weatherData.main.temp;
