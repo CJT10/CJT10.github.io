@@ -15,13 +15,6 @@ weatherRequest.onload = function() {
   document.getElementById("humidity").innerHTML = weatherData.main.temp_max;
   document.getElementById("windspeed").innerHTML = weatherData.wind.speed;
 
-  //  ICON PICTURE //
-  let icon =
-    "http://openweathermap.org/img/wn/" + weatherData.weather[0].icon + ".png";
-  let desc = weatherData.weather[0].description;
-
-  document.getElementById("cc-img").setAttribute("src", icon);
-  document.getElementById("cc-img").setAttribute("alt", desc);
 
   //CALCULATE WIND CHILL//
   var cur_temp = weatherData.main.temp;
@@ -35,22 +28,35 @@ weatherRequest.onload = function() {
 
   document.getElementById("windchill").innerHTML = c;
 }
+
+
   // FORECAST //
   let forecastRequest = new XMLHttpRequest();
 
   forecastRequest.open('Get', 'https://api.openweathermap.org/data/2.5/forecast?id=5678757&units=imperial&APPID=c56d49a01e77b339a90a3bf2c7dcf667', true);
   forecastRequest.send();
   
- forecastRequest.onload = function() {
+  forecastRequest.onload = function() {
     let forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
+    var dayofweek = 1;
+    
+    for(i=0; i<forecastData.list.length; i++){
+    if (forecastData.list[i].dt_txt.includes('18:00:00')) {
+        var maintemp = forecastData.list[i].main.temp;
+    var temp = "temp" + dayofweek;
+    document.getElementById(temp).innerHTML = Math.round(maintemp);
+     
+    var icon =
+    "http://openweathermap.org/img/wn/" + forecastData.list[i].weather[0].icon + ".png";
+  var desc = forecastData.list[i].weather[0].description;
+        var forecastimage = "forecastimage" + dayofweek;
+  document.getElementById(forecastimage).setAttribute("src", icon);
+  document.getElementById(forecastimage).setAttribute("alt", desc);
 
-  
+    dayofweek++;
 
-
-
-    document.getElementById("forecasttemp").innerHTML = forecastData.list[0].main.temp;
-
-
-
+    
+}
+}
   }
