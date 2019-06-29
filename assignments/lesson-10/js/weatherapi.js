@@ -43,16 +43,29 @@ weatherRequest.onload = function() {
  forecastRequest.onload = function() {
     let forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
-
-    if (dt_txt.includes('18:00:00')) {
+    var dayofweek = 1;
     
+    for(i=0; i<forecastData.list.length; i++){
+    if (forecastData.list[i].dt_txt.includes('18:00:00')) {
+        var maintemp = forecastData.list[i].main.temp;
+    var temp = "temp" + dayofweek;
+    document.getElementById(temp).innerHTML = maintemp;
+     
+    var icon =
+    "http://openweathermap.org/img/wn/" + forecastData.list[i].weather[0].icon + ".png";
+  var desc = forecastData.list[i].weather[0].description;
+        var forecastimage = "forecastimage" + dayofweek;
+  document.getElementById(forecastimage).setAttribute("src", icon);
+  document.getElementById(forecastimage).setAttribute("alt", desc);
+
+    dayofweek++;
+
+    
+}
 }
 
 
-
-
-    document.getElementById("forecasttemp").innerHTML = forecastData.list[0].main.temp;
-
+ 
 
 
   }
