@@ -77,5 +77,6 @@ function populateTownInfo(jsonObj){
 
     section.appendChild(myArticle);
   
+    
 }
 }

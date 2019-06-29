@@ -44,6 +44,9 @@ weatherRequest.onload = function() {
     let forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
 
+    var d = new Date();
+    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
 
 
     document.getElementById("forecasttemp").innerHTML = forecastData.list[0].main.temp;
