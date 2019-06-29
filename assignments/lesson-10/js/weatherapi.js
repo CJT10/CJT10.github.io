@@ -44,8 +44,10 @@ weatherRequest.onload = function() {
     let forecastData = JSON.parse(forecastRequest.responseText);
     console.log(forecastData);
 
-    var d = new Date();
-    var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    if (dt_txt.includes('18:00:00')) {
+    
+}
+
 
 
 
