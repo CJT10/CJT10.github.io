@@ -119,9 +119,9 @@ main img {
 #weathersummary {
   color: #e4efff;
   background: rgba(14, 36, 90, 0.9);
-  width: 240px;
-  height: 15em;
-  padding: 15px;
+  width: 16em;
+  height: 16em;
+  padding: 15px 15px;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -135,12 +135,12 @@ main img {
 }
 #weathsummleft {
   text-align: right;
-  width: 100px;
+  width: 6em;
   display: inline-block;
 }
 #weathsummright {
   color: #f3cf67;
-  width: 100px;
+  width: 7em;
   display: inline-block;
 }
 #town {
@@ -177,7 +177,7 @@ article h2 {
   font-size: 2em;
   color:#e4efff;
 }
-#fish {
+.storyimage {
   width: 100%;
 }
 
