@@ -26,7 +26,7 @@ header {
 }
 
 #logo {
-  width: 100px;
+  width: 80px;
 }
 #motto {
   color: #a7d8ff;
@@ -122,11 +122,13 @@ main img {
   color: #e4efff;
   background: rgba(14, 36, 90, 0.9);
   width: 16em;
-  height: 17em;
-  padding: 15px 15px;
+  height: 15em;
+  padding: 8px 15px;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  top: 5%;
+  left: 10%;
+  
+  
 }
 
 #weathersummary h3 {
@@ -202,7 +204,7 @@ p a:active {
   border-top: .5em solid #f3cf67;
   background-color: #f2f7ff;
 }
-#address {
+.address {
   padding-top: 2em;
   padding-bottom: 30px;
   color: #1d2f79;
@@ -210,7 +212,7 @@ p a:active {
   margin: 0px;
   text-align: center;
 }
-#address h5{
+.address h5{
   font-size:1.5em;
   text-decoration: underline;
 }

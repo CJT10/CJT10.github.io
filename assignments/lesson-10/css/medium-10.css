@@ -22,7 +22,19 @@
   #logo{
       display:flex;
       flex-direction: row;
+    width:100px;
   }
+  
+   #weathersummary {
+
+  width: 16em;
+  height: 17em;
+  padding: 15px 15px;
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  
+}
 
   /* NAVIGATION */
   .navigation{
