@@ -86,9 +86,9 @@
 
   #contactsection {
     margin-top: 30px;
-    margin-bottom: 0px;
-    padding: 0px;
-   border: .5em solid #f3cf67;
+    margin-bottom: 30px;
+    padding: 10px;
+   border: .3em solid #f3cf67;
     background-color:#f2f7ff;
     
   }
@@ -105,6 +105,10 @@
     padding-right: 20px;
     font-size: 1.3em;
     line-height: 1.4em;
+    
+  }
+  #address h5{
+    margin:0;
     
   }
 

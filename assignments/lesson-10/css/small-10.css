@@ -31,7 +31,9 @@ header {
 #motto {
   color: #a7d8ff;
 }
-
+#titleandmotto a{
+  text-decoration: none;
+}
 /* NEW FLEX NAVIGATION */
 
 nav {
@@ -182,16 +184,16 @@ article h2 {
 }
 
 p a:link {
-  color: lightgray;
+  color: #a7d8ff;
 }
 p a:visited {
   color: gray;
 }
 p a:hover {
-  color: #6cbbd7;
+  color: #f3cf67;
 }
 p a:active {
-  color: #f3cf67;
+  color: #6cbbd7
 }
 /* CONTACT */
 #contactsection {
@@ -201,15 +203,21 @@ p a:active {
   background-color: #f2f7ff;
 }
 #address {
-  padding-top: 30px;
+  padding-top: 2em;
   padding-bottom: 30px;
   color: #1d2f79;
   font-weight: bold;
   margin: 0px;
   text-align: center;
 }
+#address h5{
+  font-size:1.5em;
+  text-decoration: underline;
+}
 #map {
   text-align: center;
+  padding:2em;
+  
 }
 
 /*FOOTER*/
@@ -434,21 +442,26 @@ margin: 2em auto;
   padding:.5em;
   color: #1d2f79;
   border-radius:5px;
-   max-width: 600px;
+   max-width: 35em;
   margin:4em auto 2em auto;
+  border: 3px outset #f3cf67;
   
 }
 .events h4{
   text-align:center;
+  font-size: 1.75em;
+  margin-bottom: 10px;
 }
 #eventlist{
   margin:0 auto;
   
 }
 #eventlist li{
- margin:1em;
+ margin:2em;
   list-style-type: square;
 }
+
+/* ICONS */
 .fab{
   text-decoration: none;
   font-size: 25px;
@@ -459,6 +472,7 @@ margin: 2em auto;
 .fab:hover {
   opacity: 0.7;
   color: #f3cf67;
+  
 }
 
 .fab fa{
