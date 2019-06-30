@@ -54,7 +54,7 @@ weatherRequest.onload = function() {
 
     dayofweek++;
 
-    
+
 }
 }
 
