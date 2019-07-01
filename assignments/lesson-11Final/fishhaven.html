@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Fish Haven, Idaho Weather</title>
+    <meta name="description" content="Idaho weather information and more" />
+ 
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+
+  <body>
+    <header>
+            <section class="headings">
+                <a href="index.html">
+                    <img id="logo" src="images/weatherspotlogo.png" alt="weather spot logo" />
+                    <div id="titleandmotto">
+                      <h1>Idaho Weather Spot</h1>
+                      <span id="motto">Your spot for local weather and more</span></a>
+    </div>
+      </section>
+      
+      <nav>
+    
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="preston.html">Preston</a></li>
+          <li><a href="sodasprings.html">Soda Springs</a></li>
+          <li><a class="current" href="fishhaven.html">Fish Haven</a></li>
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <h2 id="town">Fish Haven, Idaho</h2>
+     <div class="container">
+
+<figure class="mainimage">
+    <img src="images/fishhaven-main-700.jpg" alt="teepee lake view" sizes="100vw"
+srcset="images/fishhaven-main-500.jpg 500w, images/fishhaven-main-700.jpg 700w, images/fishhaven-main-1000.jpg 1000w">
+</figure>
+
+        <div id="weathersummary">
+            <h3>Weather Summary</h3>
+           <div id="weathsummleft">
+            <p>Currently:</p>
+            <p>Temp:</p>
+            <p>Wind Chill:</p>
+            <p>Humidity:</p>
+            <p>Wind Speed:</p>
+        </div>
+        
+        <div id="weathsummright">
+            <p><span id='description'> </span></p>
+            <p><span id="cc-temp"></span>&deg;</p>
+            <p><span id="windchill"></span>&deg; F</p>
+            <p><span id="humidity"> </span>&#37; F</p>
+            <p><span id="windspeed"> </span> mph</p>
+        </div>
+
+        </div>
+        </div>
+
+        <section class="fiveday">
+            <h3>5 Day Forecast</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th><span id="dayone"></span></th>
+                        <th><span id="daytwo"></span></th>
+                        <th><span id="daythree"></span></th>
+                        <th><span id="dayfour"></span></th>
+                        <th><span id="dayfive"></span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img id='cc-img' src="" alt=""></td>
+                        <td><img src="images/Sunicon.png" id="icontwo" alt="sun icon"></td>
+                        <td><img src="images/Sunicon.png" id="iconthree" alt="sun icon"></td>
+                        <td><img src="images/Sunicon.png" id="iconfour" alt="sun icon"></td>
+                        <td><img src="images/Sunicon.png" id="iconfive" alt="sun icon"></td>
+                    </tr>
+                    <tr>
+                        <td>78 &#8457;</td>
+                        <td>78 &#8457;</td>
+                        <td>78 &#8457;</td>
+                        <td>78 &#8457;</td>
+                        <td>78 &#8457;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+      <article>
+            <div class="articleheadline">
+            <h2>Little Fish Haven Idaho is paradise for residents </h2>
+            <p id="byline">by Kurt Friedemann</p>
+        </div>
+          <div id="townarticle">
+                <img
+                class="storyimage"
+                src="images/fishhaven-storyimage-800.jpg"
+                alt="beautiful clear lake"
+              />
+        <p>It's an undiscovered paradise. Most people who drive by recognize the raw beauty of a place ringed by high desert mountains and bordered by the shores of a vast natural lake.
+
+            In winter the hills outside this small paradise echo with the sharp whine of snow machines and in the summer thousands of tourists ply the lake's bright blue waters with water skis or fishing poles.
+            
+            But they don't live there. It's different living in Fish Haven.
+            
+            The little town sits just on the Idaho side of U.S. Highway 89 tucked in between Bear Lake's west side and the mountains.
+            
+            It's not technically a city or a town, it's really nothing more than the proverbial wide spot in the road. But people call it a town even though there isn't a city council, just the Bear Lake County Commission that oversees development there.
+                 <a href="https://www.deseretnews.com/article/800677/Little-Fish-Haven-Idaho-is-paradise-for-residents.html">continue story...</a>
+                
+               
+        </p>
+    </div>
+
+    <section class="events">
+      <h4>Fish Haven Events</h4>
+      <ul id="eventlist">
+      </ul>
+    </section> 
+   
+      </article>
+      
+      <div id="contactsection">
+          <div class="address">
+              <h5>Contact Info</h5>  
+            <p>
+              Idaho Weather Spot <br>
+            300 N 1st E <br>
+            Preston, ID 83263</p>
+            <p>idahoweatherspot@myemail.com<br>
+            1-866-555-2965</p>
+            <a href="https://www.facebook.com/"><span class="fab fa-facebook"></span></a>
+            <a href="https://www.pinterest.com/"><span class="fab fa-pinterest"></span></a>
+            <a href="https://www.twitter.com/"><span class="fab fa-twitter-square"></span></a>
+    </div>
+    <div id="map">
+            <iframe width="400" height="300" src="https://www.bing.com/maps/embed?h=400&w=500&cp=42.09019542222846~-111.89453998161764&lvl=13&typ=d&sty=r&src=SHELL&FORM=MBEDV8" >
+            </iframe>
+            
+     </div>
+    </div>
+    </main>
+    <footer>
+      <p>&COPY;Idaho Weather Spot  |  CIT 230 <a href="https://www.byui.edu/">BYU-I.edu</a>  |  Cassidy Terry  |  <span id="currentdate"></span></p>
+    </footer>
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/towneventfish.js"></script>
+    <script src="js/weatherapi.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,83 @@
+@media only screen and (min-width: 600px) {
+  #gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-gap: 2em;
+    margin: 20px;
+    
+  }
+
+  body {
+    width: 100%;
+  }
+/* HEADER AND LOGO */
+.headings {
+    display: flex;
+    flex-flow: row wrap;
+    
+    margin: 0 auto;
+  }
+
+  #logo{
+      display:flex;
+      flex-direction: row;
+    width:100px;
+  }
+  
+   #weathersummary {
+
+  width: 16em;
+  height: 17em;
+  padding: 15px 15px;
+  position: absolute;
+  top: 2em;
+  left: 2em;
+  
+}
+
+  /* NAVIGATION */
+  .navigation{
+    flex-direction: row;
+    width:100%;
+    max-width: 800px;
+    width: 100%;
+    text-align:center;
+    margin: 0 auto;
+}
+
+  .navigation li:first-child {
+    display: none;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+   
+  }
+#townarticle, .articleheadline{
+max-width: 600px;
+margin: 0 auto;
+
+}
+article{
+    margin: 1em 0 0 0;
+}
+/* HOME PAGE JSON */
+.townsection{
+  display:flex;
+  flex-flow: row wrap;
+
+  }
+
+    .homeimage{
+      width:100%;
+      text-align:center;
+      margin:2em auto;
+      display:flex;
+}
+  #eventlist{
+   
+  margin:0 0 0 3em;
+  
+}
+}
