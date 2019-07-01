@@ -57,6 +57,8 @@
     text-align: center;
     color: #314185;
     font-size: 2em;
+    margin-bottom:10px;
+    
   }
 
   table, th {
@@ -66,7 +68,7 @@
   }
 
   table {
-    margin: 30px auto 30px auto;
+    margin: 20px auto 50px auto;
   }
 
   .fiveday th {
