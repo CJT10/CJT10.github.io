@@ -216,6 +216,12 @@ p a:active {
   font-size:1.5em;
   text-decoration: underline;
 }
+iframe{
+  width:400px;
+height:300px; 
+overflow-x:hidden;
+overflow-y:hidden;
+}
 #map {
   text-align: center;
   padding:2em;
