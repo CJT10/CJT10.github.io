@@ -16,7 +16,7 @@ weatherRequest.onload = function() {
   document.getElementById("cc-temp").innerHTML = Math.round(
     weatherData.main.temp
   );
-  document.getElementById("humidity").innerHTML = weatherData.main.humidity;
+  document.getElementById("humidity").innerHTML = weatherData.main.temp_max;
   document.getElementById("windspeed").innerHTML = weatherData.wind.speed;
 
   //CALCULATE WIND CHILL//
@@ -46,12 +46,24 @@ forecastRequest.onload = function() {
   let forecastData = JSON.parse(forecastRequest.responseText);
   console.log(forecastData);
   var dayofweek = 1;
-
+  var listDate = [];
   for (i = 0; i < forecastData.list.length; i++) {
     if (forecastData.list[i].dt_txt.includes("18:00:00")) {
       var maintemp = forecastData.list[i].main.temp;
       var temp = "temp" + dayofweek;
       document.getElementById(temp).innerHTML = Math.round(maintemp);
+
+      var date = new Date(forecastData.list[i].dt * 1000);
+      
+      var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+      var findDate = month[date.getMonth()] + " " + date.getDate();
+      listDate.push(findDate);
+
+document.getElementById("dayone").innerHTML = listDate[1];
+document.getElementById("daytwo").innerHTML = listDate[2];
+document.getElementById("daythree").innerHTML = listDate[3];
+document.getElementById("dayfour").innerHTML = listDate[4];
+document.getElementById("dayfive").innerHTML = listDate[5];
 
       var icon =
         "http://openweathermap.org/img/wn/" +
@@ -62,6 +74,7 @@ forecastRequest.onload = function() {
       document.getElementById(forecastimage).setAttribute("src", icon);
       document.getElementById(forecastimage).setAttribute("alt", desc);
 
+    
       dayofweek++;
     }
   }
