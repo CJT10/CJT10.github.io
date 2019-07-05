@@ -46,7 +46,8 @@ forecastRequest.onload = function() {
   let forecastData = JSON.parse(forecastRequest.responseText);
   console.log(forecastData);
   var dayofweek = 1;
-  var listDate = [];
+var listDate=[]
+  
   for (i = 0; i < forecastData.list.length; i++) {
     if (forecastData.list[i].dt_txt.includes("18:00:00")) {
       var maintemp = forecastData.list[i].main.temp;
@@ -54,19 +55,20 @@ forecastRequest.onload = function() {
       document.getElementById(temp).innerHTML = Math.round(maintemp);
 
       var date = new Date(forecastData.list[i].dt * 1000);
-      
-      var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-      var findDate = month[date.getMonth()] + " " + date.getDate();
+      var weekday = ["Sun.", "Mon.", "Tues.", "Wed.", "Thur.", "Fri.", "Sat.", "Sund."];
+      var month = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "August", "Sep.", "Oct.", "Nov.", "Dec."];
+      var findDate = weekday[date.getDay()] + "<br>" + month[date.getMonth()] + " " + date.getDate();
       listDate.push(findDate);
 
-document.getElementById("dayone").innerHTML = listDate[1];
-document.getElementById("daytwo").innerHTML = listDate[2];
-document.getElementById("daythree").innerHTML = listDate[3];
-document.getElementById("dayfour").innerHTML = listDate[4];
-document.getElementById("dayfive").innerHTML = listDate[5];
+      document.getElementById('dayone').innerHTML = listDate[0];
+      document.getElementById('daytwo').innerHTML = listDate[1];
+      document.getElementById('daythree').innerHTML = listDate[2];
+      document.getElementById('dayfour').innerHTML = listDate[3];
+      document.getElementById('dayfive').innerHTML = listDate[4];
+
 
       var icon =
-        "http://openweathermap.org/img/wn/" +
+        "http://openweathermap.org/img/w/" +
         forecastData.list[i].weather[0].icon +
         ".png";
       var desc = forecastData.list[i].weather[0].description;
