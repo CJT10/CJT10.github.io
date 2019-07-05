@@ -1,7 +1,7 @@
 // SODA SPRINGS ID //
 let weatherRequest = new XMLHttpRequest();
 let apiURLstring =
-  'https://api.openweathermap.org/data/2.5/weather?zip=83287,us&units=imperial&APPID=c56d49a01e77b339a90a3bf2c7dcf667';
+  'https://api.openweathermap.org/data/2.5/weather?id=5585010,us&units=imperial&APPID=c56d49a01e77b339a90a3bf2c7dcf667';
 
 weatherRequest.open('Get', apiURLstring, true);
 weatherRequest.send();
@@ -33,7 +33,7 @@ weatherRequest.onload = function() {
   // FORECAST //
   let forecastRequest = new XMLHttpRequest();
 
-  forecastRequest.open('Get', 'https://api.openweathermap.org/data/2.5/forecast?zip=83287,us&units=imperial&APPID=c56d49a01e77b339a90a3bf2c7dcf667', true);
+  forecastRequest.open('Get', 'https://api.openweathermap.org/data/2.5/forecast?id=5585010,us&units=imperial&APPID=c56d49a01e77b339a90a3bf2c7dcf667', true);
   forecastRequest.send();
   
   forecastRequest.onload = function() {
