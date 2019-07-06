@@ -316,30 +316,31 @@ form label.top {
 }
 #ratingvalue {
   font-size: x-large;
-  color: #a7d8ff;
+  color: #f3cf67;
 }
 .slider {
   -webkit-appearance: none;
   background: #d0dae8;
   height: 1rem;
 }
+/*
 .slider:hover {
   opacity: 1;
-}
+}*/
 
 .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 15px;
   height: 20px;
-  background: #a7d8ff;
+  background:#f3cf67;
   border-radius: 5px;
   cursor: pointer;
 }
 .slider::-moz-range-thumb {
   width: 15px;
   height: 20px;
-  background: #a7d8ff;
+  background: #f3cf67;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -363,7 +364,7 @@ form input.submitBtn {
   text-transform: uppercase;
 }
 form input.submitBtn:hover {
-  background-color: #a7d8ff;
+  background-color: #f3cf67;
   color: #0e245a;
   border: 1px solid #0e245a;
 }
