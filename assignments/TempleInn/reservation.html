@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Inn & Suites</title>
+    <meta name="description" content="temple inn and suites information" />
+ 
+    <link href="https://fonts.googleapis.com/css?family=Lato%7cPlayfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+
+  </head>
+
+  <body>
+    <header>
+  
+      
+      <nav class="navbar">
+            <a href="index.html">
+                    <img id="logo" src="images/logo300.png" alt="temple inn and suites logo" /></a>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="temples.html">Temple +</a>
+            <ul class="submenu">
+                <li><a href="templechile.html">Concepci&#243;n Chile Temple</a></li>
+                <li><a href="templeparis.html">Paris, France Temple</a></li>
+                <li><a href="templerome.html">Rome, Italy Temple</a></li>
+                <li><a href="templesandiego.html">San Diego Temple</a></li>
+            </ul>
+          </li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services +</a>
+            <ul class="submenu">
+                <li><a href="reception.html">Reception</a></li>
+                <li><a href="missionary.html">Missionary Suites</a></li>
+            </ul>
+
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+        <form method="get" action="thanks.html">
+            <ul class="flex-outer">
+                <li>
+                    <label class="first-name">First Name
+                    <input type="text" name="first-name" placeholder="Enter your first name here"></label>
+                </li>
+                <li>
+                        <label >Last Name
+                        <input type="text" name="last-name" placeholder="Enter your last name here"></label>
+                </li>
+                <li>
+                    <label for="email">Email
+                    <input type="email" name="email" placeholder="Enter your email here"></label>
+                </li>
+                <li>
+                    <label for="phone">Phone
+                    <input type="tel" name="phone" placeholder="Enter your phone here"></label>
+                </li>
+                <li>
+                        <label for="home">Home State or Country
+                        <input type="text" name="home" placeholder="Home State or Country"></label>
+                    </li>
+            </ul>
+            <li>
+            <input type="submit" value= "Send Reservation Information" class="reservationbutton">
+        </li>
+        </form>
+      
+        
+<div class="contact">
+        <h2>Contact Info</h2>  
+      <p>
+        Temple Inn & Suites <br>
+        4800 Montgomery Ln #300<br>
+        Bethesda, MD 20814</p>
+      <p><i class="far fa-envelope"></i> customersupport@templeinn.com<br>
+        <i class="fas fa-phone-square"></i> 1-866-296-2965</p>
+     <p> <a href="https://www.facebook.com/"><span class="fab fa-facebook"></span></a>
+      <a href="https://www.pinterest.com/"><span class="fab fa-pinterest"></span></a>
+      <a href="https://www.twitter.com/"><span class="fab fa-twitter-square"></span></a></p>
+</div>
+ 
+    </main>
+    <footer>
+            <p>&COPY;Temple Inn & Suites  |  CIT 230 BYUI  |  Cassidy Terry  |  <span id="currentdate"></span></p>
+          </footer>
+ 
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="https://kit.fontawesome.com/7d5204845c.js"></script>
+  </body>
+</html>

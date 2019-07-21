@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Inn & Suites | Concepci&#243;n Chile Temple</title>
+    <meta name="description" content="temple inn and suites information" />
+ 
+    <link href="https://fonts.googleapis.com/css?family=Lato%7cPlayfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+
+  </head>
+
+  <body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">
+                    <img id="logo" src="images/logo500.png" alt="temple inn and suites logo" /></a>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="current" href="temples.html">Temple +</a>
+            <ul class="submenu">
+                    <li><a class="current" href="templechile.html">Concepci&#243;n Chile Temple</a></li>
+                    <li><a href="templeparis.html">Paris, France Temple</a></li>
+                    <li><a href="templerome.html">Rome, Italy Temple</a></li>
+                    <li><a href="templesandiego.html">San Diego Temple</a></li>
+            </ul>
+          </li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services +</a>
+            <ul class="submenu">
+                <li><a href="reception.html">Reception</a></li>
+                <li><a href="missionary.html">Missionary Suites</a></li>
+            </ul>
+
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      
+       <h1>Concepci&#243;n Chile Temple</h1>
+       <div class="container">
+       <figure>
+    
+        <img class="heroimage" src="images/temple-concepcionchile400.jpg" sizes="100vw" alt="Concepci&#243;n Chile Temple" srcset="images/temple-concepcionchile400.jpg 500w, images/temple-concepcionchile700.jpg 700w, images/temple-concepcionchile1000.jpg 1000w">
+        
+    </figure>
+    <div class="weathersummary">
+        <h3>Current Weather:</h3>
+        <p>Current: <span id='description'> </span></p>
+        <p>Temp: <span id="cc-temp"></span>&deg; F</p>
+        <p>Humidity: <span id="humidity"> </span>&#37;</p>
+        <p>Wind Speed: <span id="windspeed"> </span> mph</p>
+        <p>Wind Chill: <span id="windchill"></span>&deg; F</p>
+
+    </div>
+  </div>
+       <section class="templeinfo">
+        <h2>Address</h2>
+        <p>1525 Pedro de Valdivia<br>
+            Concepción<br>
+            Bio-Bio, Chile</p>
+        
+        <h2>Telephone</h2>
+        <p>(56)41-3834700</p>
+
+        <h2>Email</h2>
+       <p>Concepci&#243;nchil@ldsmail.com</p>
+
+       <h2>Services</h2>
+      <ul>
+          <li>No clothing rental available</li>
+          <li> No cafeteria available</li>
+          <li>Patron housing available</li>
+          <li>No distribution center nearby</li>
+      </ul>
+       <h2>Ordinance Schedule</h2>
+       <p>To schedule living ordinances (such as own endowment or sealing) or group visits, please call:(56)41-3834700</p>
+      <h3>Baptistry Schedule</h3>
+      <ul>
+          <li>8:00am - 11:00am Walk-ins and Appointments</li>
+          <li>11:00am - 1:00pm Family Priority Time - Walk-ins and Appointments</li>
+          <li>1:00pm - 3:00pm Walk-ins and Appointments</li>
+          <li>3:00pm - 4:00pm Family Priority Time - Walk-ins and Appointments</li>
+          <li>4:00pm - 6:00pm Walk-ins and Appointments</li>
+      </ul>
+      <h3>Initiatory Schedule</h3>
+      <ul>
+          <li>8:00am - 6:00pm Walk-ins and Appointments</li>
+      </ul>
+      <h3>Endowment Schedule</h3>
+      <ul>
+          <li>8:00am Walk-ins and Appointments</li>
+          <li>9:00am Walk-ins and Appointments</li>
+          <li>11:00am Walk-ins and Appointments</li>
+          <li>12:00pm Walk-ins and Appointments</li>
+          <li>3:00pm Walk-ins and Appointments</li>
+          <li>4:00pm Walk-ins and Appointments</li>
+      </ul>
+      <h3>Sealing Schedule</h3>
+      <ul>
+          <li>9:00am - 6:00pm Walk-ins and Appointments</li>
+     </ul>
+
+     <h2>History</h2>
+     <ul>
+         <li>3 October 2009 Announced</li>
+         <li>17 October 2015 Groundbreaking</li>
+         <li>28 October 2018 Dedicated</li>
+     </ul>
+
+     <h2>Temple Closures</h2>
+
+           
+        
+     <p><a href="temples.html">Return to Main Temple Page</a></p>
+       </section>
+
+    </main>
+    <footer>
+            <p>&COPY;Temple Inn & Suites  |  CIT 230 BYUI  |  Cassidy Terry  |  <span id="currentdate"></span></p>
+          </footer>
+ 
+    <script src="js/currentdate.js"></script>
+    <script src="js/weatherchile.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/townjson.js"></script>
+    <script src="https://kit.fontawesome.com/7d5204845c.js"></script>
+  </body>
+</html>

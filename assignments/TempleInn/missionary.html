@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Inn & Suites | Missionary Suites</title>
+    <meta name="description" content="temple inn and suites information" />
+ 
+    <link href="https://fonts.googleapis.com/css?family=Lato%7cPlayfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+
+  </head>
+
+  <body>
+    <header>
+  
+      
+      <nav class="navbar">
+            <a href="index.html">
+                    <img id="logo" src="images/logo600.png" alt="temple inn and suites logo" /></a>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="#">Temple +</a>
+            <ul class="submenu">
+                <li><a href="#">Temple 1</a></li>
+                <li><a href="#">Temple 2</a></li>
+                <li><a href="#">Temple 3</a></li>
+                <li><a href="#">Temple 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Reservation</a></li>
+          <li><a href="services.html">Services +</a>
+            <ul class="submenu">
+                <li><a href="reception.html">Reception</a></li>
+                <li><a class="current" href="missionary.html">Missionary Suites</a></li>
+            </ul>
+
+          </li>
+
+          <li><a href="#">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+            <div class="container">  
+                    <img class="heroimage" src="images/missionarykitchensuite500.jpg" alt="" sizes="100vw"
+                srcset="images/missionarykitchensuite500.jpg 500w, images/missionarykitchensuite700.jpg 700w, images/missionarykitchensuite1000.jpg 1000w">
+                <div class="suitesumm">  
+ <h1>Long-term stay suites available!</h1>
+<p>All suites offer spacious and comfortable lodging with a fully-equipped kitchen, TV, sofa, and eating area. </p>
+</div> 
+</div> 
+<section class="suiteinfo">
+    <h2>Temple Inn & Suites offers full-time missionaries the opportunity to have the comforts of home plus the benefits of a hotel. </h2>
+    <p>Our spacious suites feature in-room kitchens where guests can store food, prepare meals, enjoy snacks, and maintain their normal eating routines while away from home. The kitchens are fully-equipped featuring a stovetop, microwave and full-size refrigerator. A toaster and additional dishes, pots, pans, and silverware are available upon request. Fill out the contact form below to find out more details.</p>
+</section>
+<div class="contactform">
+<form method="get" action="thanks.html">
+        <h3>Suite Information Request </h3>
+    <fieldset>
+  
+    <label class="box">Full Name *<input type="text" name=fullname pattern="[a-zA-Z -._']{5,99}" required></label>
+    <label class="box">Phone<input type="tel" name="phone" placeholder="1234445678"></label>
+    <label class="box">Email * <input type="email" name="email" placeholder="youremail@gmail.com"></label>
+    
+</fieldset>
+
+<input type="submit" value= "Request Suite Information" class="reservationbutton">
+</form>
+</div>
+</main>
+    <footer>
+            <p>&COPY;Temple Inn & Suites  |  CIT 230 BYUI  |  Cassidy Terry  |  <span id="currentdate"></span></p>
+          </footer>
+ 
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/townjson.js"></script>
+    <script src="https://kit.fontawesome.com/7d5204845c.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Inn & Suites</title>
+    <meta name="description" content="temple inn and suites information" />
+ 
+    <link href="https://fonts.googleapis.com/css?family=Lato%7cPlayfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+
+  </head>
+
+  <body>
+    <header>
+  
+        <nav class="navbar">
+            <a href="index.html">
+                    <img id="logo" src="images/logo300.png" alt="temple inn and suites logo" /></a>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a class="current" href="index.html">Home</a></li>
+          <li><a href="temples.html">Temple +</a>
+            <ul class="submenu">
+                <li><a href="templechile.html">Concepci&#243;n Chile Temple</a></li>
+                <li><a href="templeparis.html">Paris, France Temple</a></li>
+                <li><a href="templerome.html">Rome, Italy Temple</a></li>
+                <li><a href="templesandiego.html">San Diego, CA Temple</a></li>
+            </ul>
+          </li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services +</a>
+            <ul class="submenu">
+                <li><a href="reception.html">Reception</a></li>
+                <li><a href="missionary.html">Missionary Suites</a></li>
+            </ul>
+
+          </li>
+
+          <li><a href="contact.html">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+       <h1>Rome, Italy Temple</h1>
+       <div class="container">
+       <figure>
+    
+        <img class="heroimage" src="images/temple-rome400.jpg" sizes="100vw" alt="Rome, Italy Temple" srcset="images/temple-rome400.jpg 500w, images/temple-rome700.jpg 700w, images/temple-rome1000.jpg 1000w">
+        
+    </figure>
+    <div class="weathersummary">
+        <h3>Current Weather:</h3>
+        <p>Current: <span id='description'> </span></p>
+        <p>Temp: <span id="cc-temp"></span>&deg; F</p>
+        <p>Humidity: <span id="humidity"> </span>&#37;</p>
+        <p>Wind Speed: <span id="windspeed"> </span> mph</p>
+        <p>Wind Chill: <span id="windchill"></span>&deg; F</p>
+
+    </div>
+
+
+  </div>
+       <section class="templeinfo">
+        <h2>Address</h2>
+        <p>Via di Settebagni 376<br>
+            Rome RM<br>
+            Italy</p>
+        
+        <h2>Telephone</h2>
+        <p>(39) 06-9480-5050</p>
+
+        <h2>Email</h2>
+       <p>Rometemple@ldsmail.com</p>
+
+       <h2>Services</h2>
+      <ul>
+          <li>Clothing rental available</li>
+          <li> No cafeteria available</li>
+          <li>Patron housing available</li>
+          <li>Distribution center nearby</li>
+      </ul>
+       <h2>Ordinance Schedule</h2>
+       <p>For group appointments, please call the temple at:<br>
+        (39) 06-9480-5050</p>
+      <h3>Baptistry Schedule</h3>
+      <ul>
+          <li>9:00am - 12:00pm Walk-ins and Appointments</li>
+          <li>4:00pm - 7:00pm Walk-ins and Appointments</li>
+     
+      </ul>
+      <h3>Initiatory Schedule</h3>
+      <ul>
+          <li>9:00am - 12:00pm Walk-ins and Appointments</li>
+          <li>3:00pm - 6:00pm Walk-ins and Appointments</li>
+      </ul>
+      <h3>Endowment Schedule</h3>
+      <ul>
+          <li>9:00am Appointments Only</li>
+          <li>10:00am Appointments Only</li>
+          <li>12:00pm Appointments Only</li>
+          <li>3:00pm Appointments Only</li>
+          <li>4:30pm Appointments Only</li>
+          <li>6:00pm Appointments Only</li>
+   
+      </ul>
+      <h3>Sealing Schedule</h3>
+      <ul>
+          <li>9:00am - 10:15am Walk-ins and Appointments</li>
+          <li>11:00am - 12:15am Walk-ins and Appointments</li>
+          <li>4:30pm - 5:15pm Walk-ins and Appointments</li>
+          <li>6:30pm - 7:15pm Walk-ins and Appointments</li>
+     </ul>
+
+     <h2>History</h2>
+     <ul>
+         <li>4 October 2008 Announced</li>
+         <li>23 October 2010 Groundbreaking</li>
+         <li>10 March 2019 Dedicated</li>
+     </ul>
+
+     <h2>Temple Closures</h2>
+
+           
+        
+     <p><a href="temples.html">Return to Main Temple Page</a></p>
+       </section>
+
+    </main>
+    <footer>
+            <p>&COPY;Temple Inn & Suites  |  CIT 230 BYUI  |  Cassidy Terry  |  <span id="currentdate"></span></p>
+          </footer>
+ 
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/weatherrome.js"></script>
+    <script src="https://kit.fontawesome.com/7d5204845c.js"></script>
+  </body>
+</html>

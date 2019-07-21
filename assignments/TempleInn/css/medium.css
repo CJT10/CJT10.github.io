@@ -1,0 +1,42 @@
+@media only screen and (min-width: 600px) {
+
+  .hometemplesumm, .homeservices{
+   
+    display: flex;
+   margin:1em auto 3em auto;
+    width:100%;
+  }
+
+
+
+  .hometemplesumm figure  {
+    margin-bottom: 2em;
+  }
+  .homeservicescopy{
+      width:100%;
+  }
+  .services{
+    max-width: 700px;
+    margin: 2em auto;
+  }
+    
+  .suitesumm{
+    position:absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    text-align:center;
+    color:#fff;
+    background-color:rgba(80, 10, 93, 0.6);
+    padding:1em 2em;
+  }
+  .templeinfo{
+    max-width:601px;
+  }
+  .weathersummary{
+    position: absolute;
+  top:0;
+  left:2.5rem;
+  max-width:13rem;
+}
+}

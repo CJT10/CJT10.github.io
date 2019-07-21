@@ -1,0 +1,117 @@
+@media only screen and (min-width: 900px) {
+ 
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+  
+  .navigation{
+    display: flex;
+flex-direction: row;
+    justify-content: flex-end;
+    margin-right:2em;
+min-width:600px;
+    padding-top:2em;
+  width:30%;
+    background-color: #fff;
+  
+}
+
+li a:hover{
+  color:#500a5d;
+  background-color: #fff;
+  border-bottom: 3px solid #500a5d;
+  margin:0;
+  left: 5%;
+   }
+
+  .navigation li:first-child {
+    display: none;
+  }
+  .navigation li {
+    display: block;
+    flex: 1 1 auto;
+   
+  }
+nav .current{
+  background-color: #fff;
+  border-bottom:3px solid #500a5d;
+}
+  .submenu{
+    position: absolute;
+    
+   
+  }
+
+ .submenu li:first-child{
+      display:block;
+    }
+
+
+  .hometemplesumm, .homeservices{
+    padding:2em;
+    justify-content: center;
+    
+  }
+  .homeservices{
+    max-width: 1000px;
+    flex-direction: row;
+  }
+  .hometemplesumm figure{
+    margin:0 1em;
+  }
+  .flexcontainer{
+    display: flex;
+    max-width:900px;
+    margin:0 auto;
+    flex-flow:row wrap;
+  }
+.imageoverlaycontainer{
+display:flex;
+  
+  width:100%;
+  margin:2em auto;
+  padding:0;
+
+ 
+}
+  .intro p{
+    max-width: 33em;
+  }
+/* CONTACT PAGE */
+.contactcontainer{
+ display:flex;
+  flex-flow:row wrap;
+ max-width:1000px;
+  margin:2em auto;
+  justify-content: space-evenly;
+  
+} 
+  .flexcontainer{
+    display:flex;
+    flex-flow:row wrap;
+    width:100%;
+    max-width:1000px;
+    margin:0 auto 5em auto;
+    
+  }
+
+
+  .recep-one{
+   max-width:400px;
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+   
+  }
+  .recep-one h2{
+    margin:0;
+  }
+  .container{
+    max-width: 1000px;
+    margin:auto;
+  }
+}
+

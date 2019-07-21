@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Temple Inn & Suites | Contact Page</title>
+    <meta name="description" content="temple inn and suites information" />
+ 
+    <link href="https://fonts.googleapis.com/css?family=Lato%7cPlayfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/small.css"/>
+    <link rel="stylesheet" href="css/medium.css"/>
+    <link rel="stylesheet" href="css/large.css"/>
+
+  </head>
+
+  <body>
+    <header>
+  
+      
+      <nav class="navbar">
+            <a href="index.html">
+                    <img id="logo" src="images/logo300.png" alt="temple inn and suites logo" /></a>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="temples.html">Temple +</a>
+            <ul class="submenu">
+                <li><a href="templechile.html">Concepci&#243;n Chile Temple</a></li>
+                <li><a href="templeparis.html">Paris, France Temple</a></li>
+                <li><a href="templerome.html">Rome, Italy Temple</a></li>
+                <li><a href="templesandiego.html">San Diego Temple</a></li>
+            </ul>
+          </li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services +</a>
+            <ul class="submenu">
+                <li><a href="reception.html">Reception</a></li>
+                <li><a href="missionary.html">Missionary Suites</a></li>
+            </ul>
+
+          </li>
+
+          <li><a class="current" href="contact.html">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+        <div class="contactcontainer">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49628.493140998835!2d-77.13120581441403!3d38.974672450161705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800+Montgomery+Ln+%23300%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1563546376300!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<div class="contactinfocontainer">
+            <h2>Contact Info</h2>  
+            <p>
+              Temple Inn & Suites <br>
+              4800 Montgomery Ln #300<br>
+              Bethesda, MD 20814</p>
+            <p><i class="far fa-envelope"></i> customersupport@templeinn.com<br>
+              <i class="fas fa-phone-square"></i> 1-866-296-2965</p>
+           <p> <a href="https://www.facebook.com/"><span class="fab fa-facebook"></span></a>
+            <a href="https://www.pinterest.com/"><span class="fab fa-pinterest"></span></a>
+            <a href="https://www.twitter.com/"><span class="fab fa-twitter-square"></span></a></p>
+        </div>
+     
+        <div class="contactform">
+                <h3>Need to get in touch?<br>
+                    Fill out the form below and we will contact you as soon as possible! </h3>
+                <form method="get" action="thanks.html">
+                    
+                    <fieldset>
+                  
+                    <label class="box">Full Name *<input type="text" name=fullname pattern="[a-zA-Z -._']{5,99}" required></label>
+                    <label class="box">Phone<input type="tel" name="phone" placeholder="1234445678"></label>
+                    <label class="box">Email * <input type="email" name="email" placeholder="youremail@gmail.com"></label>
+                    <label class="box">I prefer to be contacted by:</label>
+                    <label class="box"><input type="radio" name="answer" value="phone" > Phone</label>
+                    <label class="box"><input type="radio" name="answer" value="e-mail"> E-mail</label>
+                    <label class="box">Questions and Comments:
+                        <textarea name="comments" class="comments"></textarea></label>
+                </fieldset>
+               
+                <input type="submit" value= "Send Contact Information" class="reservationbutton">
+                </form>
+                </div>
+        </div>
+
+    </main>
+    <footer>
+            <p>&COPY;Temple Inn & Suites  |  CIT 230 BYUI  |  Cassidy Terry  |  <span id="currentdate"></span></p>
+          </footer>
+ 
+    <script src="js/currentdate.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="https://kit.fontawesome.com/7d5204845c.js"></script>
+  </body>
+</html>
