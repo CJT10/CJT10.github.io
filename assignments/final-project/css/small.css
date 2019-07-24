@@ -134,6 +134,9 @@ nav .current{
 }
 
 /* HOME PAGE */
+.backgroundcolor{
+  background-color: #efefef;
+}
 
 .homehero{
  margin:0;
@@ -152,7 +155,7 @@ nav .current{
   text-align: center;
   background-color: #efefef;
   width:100%;
-  padding:.5em .5em 1em .5em;
+  padding:2em;
 
 
   }
@@ -431,10 +434,18 @@ form fieldset{
 }
 
 .thanks{
-  margin:2em auto 8em auto;
+  margin:2em auto 2em auto;
   text-align:center;
-    height:30em;
+    height:15em;
   padding:1em;
+}
+
+.contactthanks{
+  text-align:center;
+  border:3px solid #edb500;
+  max-width:30rem;
+  margin:2em auto 15em auto;
+  
 }
 /* TEMPLE */
 .intro{
