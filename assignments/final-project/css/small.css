@@ -19,9 +19,7 @@ p {
 
 font-family: 'Lato', sans-serif;
   line-height: 1.5em;
-  /*margin:0 auto;
-  padding: 1em 2em 1em;;
-  */
+
 }
 body {
   width: 100%;
@@ -42,6 +40,8 @@ a:hover{
 a:active{
   color:#500a5d;
 }
+
+/* NAVIGATION */
 .navbar{
   display: flex;
   flex-direction: column;
@@ -133,33 +133,45 @@ nav .current{
 
 }
 
+/* HOME PAGE */
+
 .homehero{
-  width:100%;
-  margin:0 auto;
-  height:auto;
+ margin:0;
   display:block;
   text-align: center;
-  
-  
+ 
+ }
+.homehero img{
+  width:100%;
+  max-width: 1000px;
 }
 .homeintro{
-  width:100%;
+  display:block;
+  width:27rem;
   margin:0 auto;
   text-align: center;
   background-color: #efefef;
-  padding:1em;
-  
+  width:100%;
+  padding:.5em .5em 1em .5em;
+
+
+  }
+.bordercontainer{
+  border: 3px solid #edb500;
+  max-width:30rem;
+  margin:auto;
+  background-color: #fff;
+  padding:4px;
 }
+
 .homeintro p{
   max-width: 27em;
   text-align: center;
   margin:1em auto;
   
 }
-.homeintro h1{
-  padding-top:1em;
-}
-/* services */
+
+/* services home page */
 .homeservices figure{
   margin:0 auto;
   width:100%;
@@ -169,6 +181,7 @@ nav .current{
 .homeservices figure img{
   width:100%;
   max-width: 500px;
+  box-shadow: 5px 5px 5px gray;
 }
 .homeservices{
   margin-bottom:2em;
@@ -177,10 +190,15 @@ nav .current{
 }
 .homeservicescopy{
   margin:auto;
+  padding:1rem;
   
 }
 .homeservicescopy,.hometemplecopy p{
   max-width: 27em;
+}
+
+.homeservices h2{
+  border-bottom: 2px solid black;
 }
 
 
@@ -196,7 +214,10 @@ nav .current{
  max-width:400px;
   padding:0;
  }
-
+.hometemplesumm figure img{
+  box-shadow: 5px 5px 5px gray;
+  width:100%;
+}
 
 .hometemplesumm figcaption{
   font-size:.75em;
@@ -207,7 +228,17 @@ nav .current{
 .hometemplesumm{
   padding:2em;
   margin:auto;
+  border-bottom: 2px solid #edb500;
   
+}
+.hometemplesumm h2{
+  border-bottom: 2px solid black;
+}
+.tempheadline{
+  margin:auto;
+  text-align: center;
+  width:100%;
+  max-width:27em;
 }
 
 /* BUTTON */
@@ -224,7 +255,7 @@ nav .current{
   border-radius: 30px;
   border: none;
   width:15em;
-  margin: 0 auto 2em auto;
+  margin: 0 auto 1em auto;
   box-shadow: 5px 5px 5px gray;
   
  
@@ -250,8 +281,9 @@ nav .current{
   .contact{
     width:80%;
      text-align: center;
-  margin:auto;
+  margin:0 auto 2em auto;
     padding:1em;
+   
   
   }
 .contact h2{
@@ -265,7 +297,7 @@ nav .current{
 }
 .services li{
   font-family: 'Lato', sans-serif;
-  line-height: 1.5em;
+  line-height: 1.7em;
 }
 .imageoverlaycontainer{
 position:relative;
@@ -423,12 +455,9 @@ form fieldset{
 font-family: 'Lato', sans-serif;
   line-height: 1.5em;
   margin-top:0.2em;
-  
 }
 
 .weathersummary{
-  position:none;
- 
   background-color:rgba(80, 10, 93, 0.6);
   color:#fff;
   padding:.5em;
@@ -439,8 +468,6 @@ font-family: 'Lato', sans-serif;
   width:100%;
   text-align:left;
   justify-content: flex-start;
-  
-  
 }
 
 .weathersummary p{
@@ -456,6 +483,10 @@ font-family: 'Lato', sans-serif;
   text-align:center;
  margin-top:2em;
   } 
+.contactinfocontainer{
+  border:3px solid #edb500;
+  padding:1rem;
+}
 /* RECEPTION PAGE */
 .reception{
   width:100%;
@@ -473,8 +504,11 @@ font-family: 'Lato', sans-serif;
  
 }
 .recep-headline{
-  margin-bottom:1em;
+  margin:0 auto 2em auto;
   padding:.5em;
+ max-width:42rem;
+  text-align: center;
+  font-size:large;
   
 }
 .recep-one h2{
@@ -487,14 +521,45 @@ font-family: 'Lato', sans-serif;
   
 }
 /*RESERVATION FORM */
+form{
+  margin:2em;
+}
+legend{
+  padding-top:1rem;
+  color:#500a5d;
+  font-weight:bold;
+  border-bottom: 2px solid #500a5d;
+  width:100%;
+}
 .flex-outer li{
   display:flex;
   flex-wrap:wrap;
   align-items: center;
+  margin-bottom:1rem;
 }
 .flex-outer > li > label {
   flex: 1 0 120px;
   max-width: 220px;
+}
+
+.reserv-form{
+  margin:auto;
+  max-width:25rem;
+  background-color: #efefef;
+  border-radius:5px;
+}
+form label.formbox input,
+form label.formbox select {
+  
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.75rem;
+  background-color: #fff;
+}
+.formcommentbox{
+    width: 50%;
+  min-width: 250px;
+  height: 200px;
 }
 
 /* FOOTER */

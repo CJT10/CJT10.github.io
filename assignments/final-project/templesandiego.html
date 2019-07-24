@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Temple Inn & Suites | San Diego, California Temple Info</title>
     <meta name="description" content="temple inn and suites information" />
+    <meta name="author" content="Cassidy Terry">
  
     <link href="https://fonts.googleapis.com/css?family=Lato%7cPlayfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -23,13 +24,13 @@
                     <img id="logo" src="images/logo300.png" alt="temple inn and suites logo" /></a>
         <ul class="navigation">
             <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
-          <li><a class="current" href="index.html">Home</a></li>
-          <li><a href="temples.html">Temple +</a>
+          <li><a  href="index.html">Home</a></li>
+          <li><a class="current" href="temples.html">Temple +</a>
             <ul class="submenu">
                 <li><a href="templechile.html">Concepci&#243;n Chile Temple</a></li>
                 <li><a href="templeparis.html">Paris, France Temple</a></li>
                 <li><a href="templerome.html">Rome, Italy Temple</a></li>
-                <li><a href="templesandiego.html">San Diego, CA Temple</a></li>
+                <li><a class="current" href="templesandiego.html">San Diego, CA Temple</a></li>
             </ul>
           </li>
           <li><a href="reservation.html">Reservation</a></li>
@@ -65,6 +66,7 @@
 
     </div>
   </div>
+
        <section class="templeinfo">
         <h2>Address</h2>
         <p>7474 Charmant Dr<br>
@@ -120,9 +122,9 @@
      </ul>
 
      <h2>Temple Closures</h2>
-
-           
-        
+     <ul id="closedlist">
+      </ul>
+ 
      <p><a href="temples.html">Return to Main Temple Page</a></p>
        </section>
 
@@ -133,7 +135,7 @@
  
     <script src="js/currentdate.js"></script>
     <script src="js/hamburger.js"></script>
-    <script src="js/weathersandiego.js"></script>
+    <script src="js/sandiego.js"></script>
     <script src="https://kit.fontawesome.com/7d5204845c.js"></script>
   </body>
 </html>

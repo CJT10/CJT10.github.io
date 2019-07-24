@@ -1,5 +1,6 @@
 @media only screen and (min-width: 600px) {
 
+
   .hometemplesumm, .homeservices{
    
     display: flex;
@@ -7,13 +8,15 @@
     width:100%;
   }
 
-
-
-  .hometemplesumm figure  {
+.hometemplesumm figure  {
     margin-bottom: 2em;
   }
   .homeservicescopy{
       width:100%;
+  }
+  .hometemplecopy{
+    padding-left:1rem;
+   
   }
   .services{
     max-width: 700px;
