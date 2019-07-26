@@ -41,5 +41,24 @@
   top:0;
   left:2.5rem;
   max-width:13rem;
+   
 }
+  .flexcontainerresources{
+    display:flex;
+    flex-direction:row;
+    margin:0 auto;
+    padding:0;
+    align-items: flex-start;
+    justify-content: center;
+   
+  }
+  .flexcontainerresources img{
+    display: flex;
+    max-width:300px;
+    margin:0;
+    padding:1em;
+   
+    
+  }
+
 }

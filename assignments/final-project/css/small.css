@@ -263,6 +263,12 @@ nav .current{
   
  
 }
+.bordercontainer a:link{
+  color:#fff;
+}
+.bordercontainer a:visited{
+  color:#fff;
+}
 .reservationbutton:hover{
   background-color: #edb500;
   font-weight:bold;
@@ -582,4 +588,28 @@ footer {
   
   padding: 5px;
   font-size: .85em;
+}
+
+footer a:link{
+  color:#fff;
+}
+footer a:visited{
+  color:#fff;
+}
+footer a:hover{
+  color:#edb500;
+}
+
+.resources{
+  max-width:750px;
+  margin-bottom:20em;
+  padding:2em;
+}
+.resources h2{
+  margin-top:2em;
+}
+.flexcontainerresources img{
+display:flex;
+  margin:auto;
+
 }
