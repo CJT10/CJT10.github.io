@@ -161,7 +161,7 @@ nav .current{
   }
 .bordercontainer{
   border: 3px solid #edb500;
-  max-width:30rem;
+  max-width:1000px;
   margin:auto;
   background-color: #fff;
   padding:4px;
